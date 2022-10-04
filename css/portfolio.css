@@ -1,0 +1,319 @@
+body {
+  font-family: Avenirnext, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #1a1b1f;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+header{
+  font-family: Avenirnext, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+/*class to a up right section*/
+.links {
+  position: relative;
+  color: #1a1b1f;
+  text-decoration: none;
+}
+.links:hover {
+  background-color: #f2f2f2;
+}
+/*class to home page - UX projects buttons*/
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.container img {
+  width: 71.5%;
+  height: auto;
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container .btn:hover {
+  background-color: #f2f2f2;
+}
+
+footer{
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+/*home, my description*/
+#main{
+  margin-right: 150px;
+  margin-left: 150px;
+  line-height: 2.5;
+  text-align:justify ;
+}
+
+/*about, my description*/
+#main2{
+  margin-right: 150px;
+  margin-left: 100px;
+  margin-top: 70px;
+  line-height: 2.5;
+  text-align:justify ;
+}
+
+span{
+  float: right;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+h1{
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: left;
+  margin-left: 102px;
+}
+h4{
+  margin-right: 150px;
+  margin-left: 150px;
+  line-height: 2.0;
+  margin-top: 50px;
+  text-align: left;
+  font-weight: 30;
+}
+/*id to last section of a home page - footer*/
+#connect{
+  text-align: center;
+}
+/*id to portfolio upper left section*/
+.links2{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  }
+.links2:hover {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li {
+  float: left;
+}
+
+.images{
+  max-width: 97%;
+  max-height: 97%;
+  margin-top: 200px;
+  text-align: center;
+  object-fit:fill;
+  position: relative;
+  width: 100%;
+}
+.images img {
+  width: 20%;
+  height: auto;
+}
+
+/*class for ABOUT - pictures don't need to be so low*/
+.images2{
+  max-width: 97%;
+  max-height: 97%;
+  margin-top: 70px;
+  text-align: center;
+  object-fit:fill;
+  position: relative;
+  width: 100%;
+}
+.images2 img {
+  width: 20%;
+  height: auto;
+}
+
+.videos{
+  text-align: center;
+}
+/*part with UX gallery*/
+.ux{
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box img {
+  width: 100%;
+  height: auto;
+}
+.box .btn {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #f2f2f2;
+}
+.box .btn2 {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn2:hover {
+  background-color: #f2f2f2;
+}
+.projecttitle{
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 65%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.box2 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box2 img {
+  width: 100%;
+  height: auto;
+}
+.box2 .btn {
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #f2f2f2;
+}
+.box2 .btn2 {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn2:hover {
+  background-color: #f2f2f2;
+}
+/*part with UX gallery for website*/
+.projecttitle2{
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 75%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*about me- title*/
+.title2{
+  font-size: 20px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: left;
+}
